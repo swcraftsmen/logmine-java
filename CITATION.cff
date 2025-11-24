@@ -1,0 +1,53 @@
+# This CITATION.cff file was generated with cffinit.visit
+# https://bit.ly/cffinit to update it.
+
+cff-version: 1.2.0
+title: LogMine Java Implementation
+message: >-
+  If you use this software, please cite both the original
+  LogMine paper and this implementation.
+type: software
+authors:
+  - given-names: Zachary
+    family-names: Huang
+    email: your.email@example.com
+repository-code: 'https://github.com/yourorg/logmine'
+abstract: >-
+  Java implementation of the LogMine algorithm for fast
+  pattern recognition in log analytics. Based on the
+  research paper by Hamooni et al. (CIKM 2016).
+keywords:
+  - log analysis
+  - pattern recognition
+  - clustering
+  - log mining
+  - unsupervised learning
+license: Apache-2.0
+version: 1.0.0
+date-released: '2025-11-24'
+references:
+  - type: article
+    authors:
+      - given-names: Hossein
+        family-names: Hamooni
+      - given-names: Biplob
+        family-names: Debnath
+      - given-names: Jianwu
+        family-names: Xu
+      - given-names: Hui
+        family-names: Zhang
+      - given-names: Guofei
+        family-names: Jiang
+      - given-names: Abdullah
+        family-names: Mueen
+    title: 'LogMine: Fast Pattern Recognition for Log Analytics'
+    year: 2016
+    conference:
+      name: >-
+        Proceedings of the 25th ACM International Conference
+        on Information and Knowledge Management
+    doi: 10.1145/2983323.2983358
+    url: 'https://www.cs.unm.edu/~mueen/Papers/LogMine.pdf'
+
+
+

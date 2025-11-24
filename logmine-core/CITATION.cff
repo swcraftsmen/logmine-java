@@ -1,0 +1,57 @@
+# CITATION.cff - Citation File Format for GitHub
+# This file helps others cite this software correctly
+
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the original research paper."
+type: software
+title: "LogMine: Fast Pattern Recognition for Log Analytics"
+abstract: "A Java implementation of the LogMine algorithm for unsupervised log pattern extraction with production-ready features including streaming mode, multi-node support, and zero dependencies."
+authors:
+  - family-names: "Huang"
+    given-names: "Zachary"
+repository-code: "https://github.com/swcraftsmen/logmine"
+url: "https://github.com/swcraftsmen/logmine"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2025-11-24
+
+# Reference to the original research paper
+references:
+  - type: article
+    title: "LogMine: Fast Pattern Recognition for Log Analytics"
+    authors:
+      - family-names: Hamooni
+        given-names: Hossein
+      - family-names: Debnath
+        given-names: Biplob
+      - family-names: Xu
+        given-names: Jianwu
+      - family-names: Zhang
+        given-names: Hui
+      - family-names: Jiang
+        given-names: Guofei
+      - family-names: Mueen
+        given-names: Abdullah
+    year: 2016
+    conference:
+      name: "Proceedings of the 25th ACM International Conference on Information and Knowledge Management"
+    doi: "10.1145/2983323.2983358"
+    url: "https://www.cs.unm.edu/~mueen/Papers/LogMine.pdf"
+    start: 1573
+    end: 1582
+    publisher:
+      name: ACM
+      city: New York
+      region: NY
+      country: US
+
+keywords:
+  - log analytics
+  - pattern recognition
+  - unsupervised learning
+  - log mining
+  - anomaly detection
+  - clustering
+  - stream processing
+
+

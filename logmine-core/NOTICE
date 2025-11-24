@@ -1,0 +1,44 @@
+LogMine - Fast Pattern Recognition for Log Analytics
+Copyright 2024 Zachary Huang
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---
+
+ATTRIBUTION
+
+This software implements the algorithm described in the following research paper:
+
+Hamooni, H., Debnath, B., Xu, J., Zhang, H., Jiang, G., & Mueen, A. (2016).
+LogMine: Fast Pattern Recognition for Log Analytics.
+In Proceedings of the 25th ACM International Conference on Information and
+Knowledge Management (CIKM '16), October 24-28, 2016, Indianapolis, IN, USA.
+ACM, New York, NY, USA, 1573-1582.
+DOI: https://doi.org/10.1145/2983323.2983358
+
+Paper available at: https://www.cs.unm.edu/~mueen/Papers/LogMine.pdf
+
+The implementation is original work by Zachary Huang and is not affiliated
+with the original research authors or their institutions.
+
+---
+
+THIRD-PARTY COMPONENTS
+
+This software has ZERO runtime dependencies.
+All code is original implementation by the author.
+
+Test dependencies (not included in distribution):
+- JUnit 5 (Eclipse Public License 2.0)
+
+
